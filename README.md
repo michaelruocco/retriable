@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/michaelruocco/retriable.svg?branch=master)](https://travis-ci.org/michaelruocco/retriable)
 [![Coverage Status](https://coveralls.io/repos/github/michaelruocco/retriable/badge.svg?branch=master)](https://coveralls.io/github/michaelruocco/retriable?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7512a910f62e4e8793638571771e175d)](https://www.codacy.com/app/michaelruocco/retriable?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=michaelruocco/retriable&amp;utm_campaign=Badge_Grade)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.michaelruocco/retriable/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.michaelruocco/retriable)
 
 This provides a couple of commonly used utility classes when performing
 an operation that needs to be retried. For example, you might have a test

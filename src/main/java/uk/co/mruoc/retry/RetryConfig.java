@@ -6,4 +6,6 @@ public interface RetryConfig {
 
     int getDelay();
 
+    int getMaxDelay();
+
 }

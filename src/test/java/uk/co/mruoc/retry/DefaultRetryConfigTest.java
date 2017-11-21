@@ -41,4 +41,11 @@ public class DefaultRetryConfigTest {
         assertThat(config.getDelay()).isEqualTo(delay);
     }
 
+    @Test
+    public void shouldReturnMaxDelay() {
+        RetryConfig config = builder.setMaxAttempts(3).setDelay(2000).build();
+
+        assertThat(config.getMaxDelay()).isEqualTo(6000);
+    }
+
 }

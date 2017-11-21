@@ -20,6 +20,11 @@ public class DefaultRetryConfig implements RetryConfig {
         return delay;
     }
 
+    @Override
+    public int getMaxDelay() {
+        return maxAttempts * delay;
+    }
+
     public static class DefaultRetryConfigBuilder {
 
         private static final int DEFAULT_MAX_ATTEMPTS = 5;

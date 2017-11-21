@@ -72,7 +72,7 @@ uploadArchives {
                 description 'Library containing useful classes when performing operations that require a retry'
                 groupId 'com.github.michaelruocco'
                 artifactId 'retriable'
-                version '1.0.0'
+                version '1.0.1'
                 url 'https://github.com/michaelruocco/retriable'
 
                 developers {

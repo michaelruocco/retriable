@@ -21,7 +21,7 @@ gradle you would do this by adding the following to your build.gradle file:
 
 ```
 dependencies {
-    compile 'com.github.michaelruocco:retriable:1.0.0'
+    compile 'com.github.michaelruocco:retriable:1.0.1'
 }
 ```
 
